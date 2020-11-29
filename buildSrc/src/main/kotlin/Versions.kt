@@ -31,7 +31,7 @@ object Versions {
     const val firebase = "26.1.0"
 
     /* test libraries */
-    const val testCore = "1.3.0"
+    const val testCore = "1.0.0"
     const val androidJunit = "1.1.2"
     const val androidTruth = "1.3.0"
     const val truth = "1.1"

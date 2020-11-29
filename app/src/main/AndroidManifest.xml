@@ -20,7 +20,6 @@
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -32,9 +31,16 @@
             tools:node="merge">
 
             <meta-data
-                android:name="${applicationId}.initializer.TimberInitializer"
+                android:name="com.steleot.androidinitialsetup.initializer.TimberInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
 
     </application>
 

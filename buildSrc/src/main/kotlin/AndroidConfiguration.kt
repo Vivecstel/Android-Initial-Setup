@@ -1,4 +1,3 @@
-
 object AndroidConfiguration {
 
     const val minSdk = 23
