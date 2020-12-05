@@ -26,9 +26,9 @@ object Versions {
     const val moshi = "1.11.0"
     const val coroutines = "1.4.2"
     const val coil = "1.1.0"
-    const val whatIf = "1.0.8"
+    const val whatIf = "1.0.9"
     const val timber = "4.7.1"
-    const val firebase = "26.1.0"
+    const val firebase = "26.1.1"
 
     /* test libraries */
     const val testCore = "1.0.0"
